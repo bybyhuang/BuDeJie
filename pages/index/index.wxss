@@ -1,0 +1,89 @@
+
+page{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+ 
+  justify-content: center;
+  align-self: center;
+  padding: 20rpx;
+  border-bottom: 1px solid #eee;
+}
+
+.user{
+  display: flex;
+  flex:1;
+  flex-direction: row;
+
+  justify-content: flex-start;
+  width: 100%;
+}
+.icon{
+  
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 100%;
+
+  padding: 10rpx 10rpx;
+}
+.image{
+  flex-shrink: 0;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+}
+.info{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  width: 70%;
+ 
+}
+.username{
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+  height: 35rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+
+}
+.time{
+  font-size:25rpx;
+  margin-left: 10rpx;
+  margin-top: 25rpx;
+  
+}
+.content{
+  font-size: 35rpx;
+  align-self: flex-start;
+
+}
+.video{
+  width: 100%;
+  height: 500rpx;
+  margin-top: 20rpx;
+}
+.state{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 20rpx;
+
+}
+.love{
+  flex: 1;
+}

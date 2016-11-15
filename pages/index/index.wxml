@@ -1,0 +1,26 @@
+<!--index.wxml-->
+<view class="page">
+<scroll-view>
+<block wx:for="{{list}}">
+    <view class="container">
+            <view class="user">
+                 <image class="image" src="{{item.profile_image}}" ></image>
+                 <view class="info">
+                 <text class="username">{{item.name}}</text>
+                 <text class="time">{{item.create_time}}</text>
+                 </view>
+            </view>
+            <text class="content">{{item.text}}</text>
+
+            <video class="video" src="{{item.video_uri}}"></video>
+            <view class="state">
+                <text class="love">赞{{item.love}}</text>
+                <text class="love">踩{{item.hate}}</text>
+            </view>
+    </view>
+    
+    </block>
+    
+</scroll-view>
+
+</view>
